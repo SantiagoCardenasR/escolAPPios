@@ -1,0 +1,195 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(234, 237, 237);
+  height: max-content;
+  overflow: hidden;
+  width: 100%;
+  font-family: Trueno;
+  font-size: 25px;
+}
+
+.register__logo {
+  margin-top: 25px;
+  margin-bottom: 18px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.register__container {
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 4px;
+  width: 400px;
+  height: max-content;
+  border-radius: 25px;
+  background-color: lightgray;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2));
+}
+
+.register__container > h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #111;
+  text-align: center;
+  font-size: 40px;
+}
+
+.register__info {
+  text-align: center;
+  width: 100%;
+}
+
+.register__info > form > h5 {
+  color: white;
+}
+
+.register__info > form > input {
+  padding: 3px 7px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #a6a6a6;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 95%;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-family: Trueno;
+  font-size: 18px;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  text-align: center;
+}
+
+.register__info > form > select {
+  padding: 3px 7px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #a6a6a6;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border-radius: 3px;
+  width: 95%;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-family: Trueno;
+  font-size: 18px;
+  appearance: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.register__info > form > input:focus {
+  border: 2px solid #bfe349;
+  box-shadow: 2 3px 2 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  transition: all 100ms linear;
+}
+
+.register__info > form > button {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #bfe349;
+  border: none;
+  color: #111;
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Trueno;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.register__info > p {
+  margin-top: 10px;
+  font-size: 16px;
+  width: 100%;
+  line-height: 18px;
+  margin-bottom: 26px;
+  color: white;
+}
+
+.register__infoLabel {
+  font-size: 20px;
+}
+
+.register__alreadyAccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  margin-bottom: -18px;
+  height: 44px;
+  font-size: 13px;
+  color: white;
+}
+
+.register__alreadyAccount > p {
+  margin-top: 25px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.register__links {
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.register__links:hover {
+  border: none;
+  text-decoration: none;
+}
+
+.register__loginLink {
+  margin-top: 25px;
+  color: #bfe349;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.register__divider {
+  width: 60%;
+  margin-top: 26px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.14),
+    rgba(0, 0, 0, 0.03) 3px,
+    transparent
+  );
+  line-height: 19px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register__divider > p {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 20px;
+  color: #c45500;
+}
