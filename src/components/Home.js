@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/Home.css";
-import "../assets/css/style.css";
-import "../assets/vendor/boxicons/css/boxicons.min.css";
 import { Link } from "react-router-dom";
 
 function Home() {

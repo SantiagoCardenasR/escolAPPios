@@ -1,6 +1,51 @@
 .covid19 {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.covid19__menu {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.covid19__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  text-align: center;
+  height: 120px;
+}
+
+.covid19__container {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid19__icon {
+  margin: 0 !important;
+}
+
+.covid19__cardTitle {
+  text-align: center;
+}
+
+.covid19__cardContainer {
+  width: 100%;
+}
+
+.covid19__link {
+  text-decoration: none;
+  width: 300px;
 }

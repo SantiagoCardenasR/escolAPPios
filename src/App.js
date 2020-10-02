@@ -2,12 +2,8 @@ import React, { useEffect } from "react";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 import "./App.css";
+import "./assets/css/style.css";
 import "./assets/vendor/boxicons/css/boxicons.min.css";
-import "./assets/vendor/animate.css/animate.min.css";
-import "./assets/vendor/venobox/venobox.css";
-import "./assets/vendor/aos/aos.css"
-import "./assets/vendor/bootstrap/css/bootstrap.min.css";
-import "./assets/vendor/remixicon/remixicon.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Register from "./components/Register";
