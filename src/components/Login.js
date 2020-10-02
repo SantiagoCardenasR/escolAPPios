@@ -3,7 +3,7 @@ import { useStateValue } from "../StateProvider";
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "../firebase";
 import logo from "../images/logo.png";
-import "../styles/Login.css";
+import "../styles/Login.css"; 
 
 function Login() {
   const [{ user }, dispatch] = useStateValue();
@@ -28,7 +28,7 @@ function Login() {
         <Link to="/">
           <img className="login__logo" src={logo} alt="logo" />
         </Link>
-        <h1>EscolAPPios</h1>
+        <h1>EscolAppios</h1>
         <form>
           <h5>E-mail / identificación</h5>
           <input
