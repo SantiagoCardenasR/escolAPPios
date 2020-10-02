@@ -9,7 +9,7 @@ function Home() {
     <div className="home">
       <section id="icon-boxes" class="icon-boxes home__menu">
         <div class="container home__container">
-          <Link className="home__link" to="">
+          <Link className="home__link" to="/salud">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 home__cardContainer"
               data-aos="fade-up"
