@@ -1,9 +1,12 @@
 .covid19 {
-  width: 100%;
+  margin:100px auto;
+  width: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
+
 .covid19__menu {
   display: flex;
   flex-direction: column;
@@ -21,13 +24,14 @@
   align-items: center;
   justify-content: center;
   padding: 0 !important;
-  text-align: center;
-  height: 120px;
+  text-align: 700px !important;
+  width: 450px !important;
+  height: 780px !important;
 }
 
 .covid19__container {
   width: 100%;
-  height: 180px;
+  height: 180px !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,10 +39,13 @@
 
 .covid19__icon {
   margin: 0 !important;
+  width: 600px;
 }
 
 .covid19__cardTitle {
-  text-align: center;
+text-align: initial;
+margin-top: 20px !important;
+
 }
 
 .covid19__cardContainer {
@@ -47,5 +54,27 @@
 
 .covid19__link {
   text-decoration: none;
-  width: 300px;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.covid19__info1 {
+  position: absolute;
+  top: 80;
+}
+
+.covid19__botton{
+    color: white;
+    padding: 10px 10px;
+}
+
+.covid19__tooltip {
+  width: 50px;
+  border-radius: 15px;
+}
+
+.covid19__infoIcon {
+  font-size: 25px !important;
+  color: #bfe349;
 }

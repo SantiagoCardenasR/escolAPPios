@@ -4,12 +4,19 @@ import { useStateValue } from "./StateProvider";
 import "./App.css";
 import "./assets/css/style.css";
 import "./assets/vendor/boxicons/css/boxicons.min.css";
+/* import "./styles/owl.carousel.min.css";
+import "./styles/shortcodes.css";
+import "./styles/responsive.css";
+import "./styles/owl.theme.default.min.css"; */
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import Home from "./components/Home";
 import Salud from "./components/Salud";
 import Covid19 from "./components/Covid19";
+
+
+
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -57,4 +64,6 @@ function App() {
   );
 }
 
+
 export default App;
+
