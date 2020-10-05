@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/Covid19.css";
 import body from "../images/cuerpoHumano.png";
 import InfoIcon from "@material-ui/icons/Info";
+import CloseIcon from "@material-ui/icons/Close";
 import usePortal from "react-cool-portal";
 
 function Covid19() {
@@ -47,6 +48,9 @@ function Covid19() {
                       aria-labelledby="modal-label"
                       aria-modal="true"
                     >
+                      <div className="modal-close">
+                        <CloseIcon onClick={toggle} />
+                      </div>
                       <div className="modal-header">
                         <h5 id="modal-label" className="modal-title">
                           Modal title
