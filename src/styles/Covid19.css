@@ -1,10 +1,9 @@
 .covid19 {
-  margin:100px auto;
+  margin: 100px auto;
   width: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .covid19__menu {
@@ -43,9 +42,8 @@
 }
 
 .covid19__cardTitle {
-text-align: initial;
-margin-top: 20px !important;
-
+  text-align: initial;
+  margin-top: 20px !important;
 }
 
 .covid19__cardContainer {
@@ -64,9 +62,9 @@ margin-top: 20px !important;
   top: 80;
 }
 
-.covid19__botton{
-    color: white;
-    padding: 10px 10px;
+.covid19__botton {
+  color: white;
+  padding: 10px 10px;
 }
 
 .covid19__tooltip {
@@ -77,4 +75,21 @@ margin-top: 20px !important;
 .covid19__infoIcon {
   font-size: 25px !important;
   color: #bfe349;
+}
+
+.modal-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-dialog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
