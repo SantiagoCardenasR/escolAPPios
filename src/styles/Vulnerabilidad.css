@@ -1,4 +1,4 @@
-.covid19 {
+.vulnerabilidad {
   width: 100%;
   height: fit-content;
   display: flex;
@@ -7,7 +7,7 @@
   background-image: url("../images/fondoCovid.png");
 }
 
-.covid19__menu {
+.vulnerabilidad__menu {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -18,7 +18,7 @@
   padding: 0;
 }
 
-.covid19__card {
+.vulnerabilidad__card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +29,7 @@
   height: 100% !important;
 }
 
-.covid19__container {
+.vulnerabilidad__container {
   width: 100%;
   height: 90%;
   display: flex;
@@ -37,7 +37,7 @@
   justify-content: center;
 }
 
-.covid19__logo {
+.vulnerabilidad__logo {
   width: 100%;
   height: 25px;
   justify-content: left;
@@ -47,52 +47,52 @@
   margin-left: 50px;
 }
 
-.covid19__logoImage {
+.vulnerabilidad__logoImage {
   width: 300px;
   height: 110px;
 }
 
-.covid19__icon {
+.vulnerabilidad__icon {
   margin: 0 !important;
   width: 600px;
 }
 
-.covid19__cardTitle {
+.vulnerabilidad__cardTitle {
   text-align: center;
   margin-top: 40px !important;
   margin-bottom: 20px !important;
   font-size: 30px !important;
 }
 
-.covid19__cardContainer {
+.vulnerabilidad__cardContainer {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.covid19__link {
+.vulnerabilidad__link {
   text-decoration: none;
   width: 100%;
   text-align: center;
   margin-top: 25px;
 }
 
-.covid19__info1 {
+.vulnerabilidad__info1 {
   position: absolute;
   top: 80;
 }
 
-.covid19__botton {
+.vulnerabilidad__botton {
   color: white;
   padding: 10px 10px;
 }
 
-.covid19__tooltip {
+.vulnerabilidad__tooltip {
   width: 50px;
   border-radius: 15px;
 }
 
-.covid19__infoIcon {
+.vulnerabilidad__infoIcon {
   font-size: 25px !important;
   color: #bfe349;
 }
@@ -122,18 +122,18 @@
   margin-right: 10px;
 }
 
-.covid19__infoIcon {
+.vulnerabilidad__infoIcon {
   font-size: 25px !important;
   color: #bfe349;
 }
 
-.covid19__closeIcon {
+.vulnerabilidad__closeIcon {
   font-size: 25px !important;
   color: #bfe349;
   cursor: pointer;
 }
 
-.covid-19__ButtonFormCabeza {
+.vulnerabilidad__ButtonFormCabeza {
   position: absolute !important;
   top: 140px !important;
   left: 913px !important;
@@ -144,7 +144,7 @@
   font-size: 25px !important;
 }
 
-.covid-19__ButtonFormGarganta {
+.vulnerabilidad__ButtonFormGarganta {
   position: absolute !important;
   top: 240px !important;
   left: 914px !important;
@@ -155,7 +155,7 @@
   font-size: 25px !important;
 }
 
-.covid-19__ButtonFormBrazos {
+.vulnerabilidad__ButtonFormBrazos {
   position: absolute !important;
   top: 280px !important;
   left: 840px !important;
@@ -166,7 +166,7 @@
   font-size: 25px !important;
 }
 
-.covid-19__ButtonFormNariz {
+.vulnerabilidad__ButtonFormNariz {
   position: absolute !important;
   top: 178px !important;
   left: 915px !important;
@@ -177,7 +177,7 @@
   font-size: 22px !important;
 }
 
-.covid-19__ButtonFormBoca {
+.vulnerabilidad__ButtonFormBoca {
   position: absolute !important;
   top: 205px !important;
   left: 916px !important;
@@ -188,7 +188,7 @@
   font-size: 20px !important;
 }
 
-.covid-19__ButtonFormMano {
+.vulnerabilidad__ButtonFormMano {
   position: absolute !important;
   top: 485px !important;
   left: 816px !important;
@@ -199,7 +199,7 @@
   font-size: 20px !important;
 }
 
-.covid-19__ButtonFormPiernas {
+.vulnerabilidad__ButtonFormPiernas {
   position: absolute !important;
   top: 570px !important;
   left: 885px !important;
@@ -210,7 +210,7 @@
   font-size: 25px !important;
 }
 
-.covid-19__ButtonFormEstomago {
+.vulnerabilidad__ButtonFormEstomago {
   position: absolute !important;
   top: 380px !important;
   left: 915px !important;
@@ -226,7 +226,7 @@
   align-items: center;
   justify-content: center;
 }
-.covid19__backButton {
+.vulnerabilidad__backButton {
   align-items: center;
   height: 40px;
   width: 180px;

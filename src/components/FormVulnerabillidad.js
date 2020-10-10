@@ -1,0 +1,31 @@
+import React, { useState } from "react";
+import "../styles/Vulnerabilidad.css";
+
+function FormVulnerabilidad({ pregunta }) {
+  const [response, setResponse] = useState();
+  return (
+    <div className="formVulnerabilidad">
+      <div className="modal-header">
+        <h5 id="modal-label" className="fromVulnerable__title">
+          {pregunta}
+        </h5>
+      </div>
+      <div className="modal-body">
+        <div className="modal-Option">
+          <form>
+            <select
+              className="modal-select"
+              onChange={(event) => setResponse(event.target.value)}
+            >
+              <option>Seleccione una respuesta</option>
+              <option>Sí</option>
+              <option>No</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default FormVulnerabilidad;

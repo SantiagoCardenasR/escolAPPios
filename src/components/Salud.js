@@ -2,8 +2,9 @@ import React from "react";
 import "../styles/Salud.css";
 import "../assets/css/style.css";
 import "../assets/vendor/boxicons/css/boxicons.min.css";
-import HealingIcon from '@material-ui/icons/Healing';
+import HealingIcon from "@material-ui/icons/Healing";
 import { Link } from "react-router-dom";
+import KeyboardBackspaceIcon from "@material-ui/icons/KeyboardBackspace";
 
 function Salud() {
   return (
@@ -55,8 +56,23 @@ function Salud() {
               </div>
             </div>
           </Link>
+        </div>
 
-          
+        <div className="container salud__container">
+          <Link className="salud__link" to="/home">
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 salud__cardContainer"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="icon-box salud__card">
+                <div class="icon salud__icon">
+                  <KeyboardBackspaceIcon className="salud__backButton" />
+                </div>
+                <h4 class="title salud__cardTitle">Atrás</h4>
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
     </div>

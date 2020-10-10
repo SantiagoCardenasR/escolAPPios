@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useStateValue } from "../StateProvider";
 import { Link, useHistory } from "react-router-dom";
-import { auth } from "../firebase";
+import { auth, reference } from "../firebase";
 import logo from "../images/logo.png";
 import "../styles/Login.css"; 
 
@@ -13,6 +13,35 @@ function Login() {
 
   const login = (event) => {
     event.preventDefault();
+
+    reference.child("users").on("value", snap => {
+      snap.forEach(element => {
+          if(email === element.val().email)
+          {
+              dispatch({
+                  type: "ADD_USER_DATA",
+                  userData: {
+                      user_name: element.val().name,
+                      user_lastName: element.val().lastName,
+                      user_email: element.val().email,
+                      user_id: element.val().id,
+                      user_address1: element.val().addrress1,
+                      user_address2: element.val().addrress2,
+                      user_phone: element.val().phone,
+                      user_typeId: element.val().typeId,
+                      user_rol: element.val().rol,
+                  }
+                });
+              console.log('SESION STOREAGE SECTION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+              sessionStorage.setItem('User', user);
+              sessionStorage.setItem("User_name", element.val().name);
+              sessionStorage.setItem("User_email", element.val().email);
+              sessionStorage.setItem("User_id", element.val().id);
+              console.log('USER ID >>>>>>>>>>>>>>>>> '+element.val().id)
+          }
+      });
+  });
+
 
     auth
       .signInWithEmailAndPassword(email, password)
