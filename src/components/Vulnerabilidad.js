@@ -68,19 +68,19 @@ function Vulnerabilidad() {
     console.log(event.target);
   };
   return (
-    <div className="Vulnerabilidad">
-      <section id="icon-boxes" class="icon-boxes Vulnerabilidad__menu">
-        <div class="container Vulnerabilidad__container">
+    <div className="vulnerabilidad">
+      <section id="icon-boxes" class="icon-boxes vulnerabilidad__menu">
+        <div class="container vulnerabilidad__container">
           <div
-            class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 Vulnerabilidad__cardContainer"
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 vulnerabilidad__cardContainer"
             data-aos="fade-up"
           >
-            <div class="icon-box Vulnerabilidad__card">
-              <div className="Vulnerabilidad__logo">
-                <img src={logo} className="Vulnerabilidad__logoImage"></img>
+            <div class="icon-box vulnerabilidad__card">
+              <div className="vulnerabilidad__logo">
+                <img src={logo} className="vulnerabilidad__logoImage"></img>
               </div>
-              <h4 class="title Vulnerabilidad__cardTitle">Formulario Vulnerabilidad</h4>
-              <div class="icon Vulnerabilidad__icon">
+              <h4 class="title vulnerabilidad__cardTitle">Formulario Vulnerabilidad</h4>
+              <div class="icon vulnerabilidad__icon">
                 <img src={body} alt="bodyVulnerabilidad"></img>
 
                 <InfoIcon
@@ -104,7 +104,7 @@ function Vulnerabilidad() {
                 <InfoIcon
                   className="vulnerabilidad__infoIcon"
                   onClick={toggle}
-                  className="Vulnerabilidad__ButtonFormTratamiento"
+                  className="vulnerabilidad__ButtonFormTratamiento"
                   id="Tratamiento"
                 />
 
@@ -170,7 +170,7 @@ function Vulnerabilidad() {
                 </Portal>
               </div>
 
-              <Link className="vulnerabilidad__link" to="/salud">
+              <Link className="vulnerabilidad__link" to="/home">
                 <button
                   type="button"
                   className="btn btn-primary active vulnerabilidad__backButton"

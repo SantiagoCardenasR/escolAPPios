@@ -6,6 +6,10 @@
   background-color: rgb(234, 237, 237);
 }
 
+.home > section {
+  width: 100%;
+}
+
 .home__menu {
   display: flex;
   flex-direction: column;

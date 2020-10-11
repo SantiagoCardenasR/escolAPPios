@@ -6,7 +6,7 @@ function StudentRol() {
     return (
         <div className="studentRol">
             <div class="container studentRol__container">
-          <Link className="studentRol__link" to="/salud">
+          <Link className="studentRol__link" to="/carne">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"
@@ -20,7 +20,7 @@ function StudentRol() {
             </div>
           </Link>
 
-          <Link className="studentRol__link" to="/salud">
+          <Link className="studentRol__link" to="/picoYcole">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"
@@ -34,7 +34,7 @@ function StudentRol() {
             </div>
           </Link>
 
-          <Link className="studentRol__link" to="">
+          <Link className="studentRol__link" to="/transporte">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"
@@ -51,7 +51,7 @@ function StudentRol() {
         </div>
 
         <div className="container studentRol__container">
-          <Link className="studentRol__link" to="">
+          <Link className="studentRol__link" to="/coivd19Form">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"
@@ -66,7 +66,7 @@ function StudentRol() {
             </div>
           </Link>
 
-          <Link className="studentRol__link" to="">
+          <Link className="studentRol__link" to="/vulnerabilidad">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"
@@ -81,7 +81,7 @@ function StudentRol() {
             </div>
           </Link>
 
-          <Link className="studentRol__link" to="">
+          <Link className="studentRol__link" to="/agenda">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"
@@ -98,7 +98,7 @@ function StudentRol() {
         </div> 
         
         <div className="container studentRol__container">
-          <Link className="studentRol__link" to="">
+          <Link className="studentRol__link" to="/calendario">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"
@@ -113,7 +113,7 @@ function StudentRol() {
             </div>
           </Link>
 
-          <Link className="studentRol__link" to="">
+          <Link className="studentRol__link" to="/notas">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
               data-aos="fade-up"

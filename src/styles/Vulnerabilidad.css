@@ -1,10 +1,15 @@
 .vulnerabilidad {
   width: 100%;
-  height: fit-content;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url("../images/fondoCovid.png");
+}
+
+.vulnerabilidad > section {
+  width: 100%;
+  height: 100%;
 }
 
 .vulnerabilidad__menu {
@@ -31,7 +36,7 @@
 
 .vulnerabilidad__container {
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,17 +44,16 @@
 
 .vulnerabilidad__logo {
   width: 100%;
-  height: 25px;
+  height: auto;
   justify-content: left;
   align-items: center;
   font-size: large;
-  margin-top: 20px;
   margin-left: 50px;
 }
 
 .vulnerabilidad__logoImage {
-  width: 300px;
-  height: 110px;
+  width: 450px !important;
+  height: 150px !important;
 }
 
 .vulnerabilidad__icon {
@@ -66,6 +70,7 @@
 
 .vulnerabilidad__cardContainer {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
 }

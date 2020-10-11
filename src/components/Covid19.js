@@ -212,7 +212,7 @@ function Covid19() {
                 </Portal>
               </div>
 
-              <Link className="covid19__link" to="/salud">
+              <Link className="covid19__link" to="/home">
                 <button
                   type="button"
                   className="btn btn-primary active covid19__backButton"
