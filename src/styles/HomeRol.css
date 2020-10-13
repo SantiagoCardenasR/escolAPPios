@@ -31,7 +31,7 @@
 
 .homeRol__signoutIcon {
   font-size: 40px !important;
-  color: #bfe349;
+  color: #f6b024;
   cursor: pointer;
 }
 
@@ -43,13 +43,15 @@
 
 .homeRol__notifications {
   display: flex;
-  width: 50%;
+  width: 28%;
   height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #eaeded;
   padding-right: 30px;
+  border-left: 1px solid;
+  padding-left: 30px;
 }
 
 .homeRol__notificationsContainer {
@@ -69,6 +71,8 @@
   height: 150px;
   background-color: white;
   border-radius: 20px;
+  margin-bottom: 18px;
+  padding-left: 20px;
 }
 
 .homeRol__notificationCard > h3 {
@@ -77,4 +81,5 @@
 
 .homeRol__notificationCard > p {
   color: black;
+  font-size: 18px;
 }

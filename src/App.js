@@ -13,6 +13,7 @@ import Covid19 from "./components/Covid19";
 import Vulnerabilidad from "./components/Vulnerabilidad";
 import Transporte from"./components/Transporte";
 import Carne from "./components/Carne";
+import Calendario from "./components/calendario";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -47,6 +48,9 @@ function App() {
           </Route>
           <Route path="/salud">
             <Salud />
+          </Route>
+          <Route path="/calendario">
+            <Calendario />
           </Route>
           <Route path="/coivd19Form">
             <Covid19 />

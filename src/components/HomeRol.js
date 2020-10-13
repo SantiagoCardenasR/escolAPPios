@@ -42,7 +42,7 @@ function HomeRol({rol}) {
     return (
         <div className="homeRol">
             <div className="homeRol__welcome">
-                <h3 className="homeRol__welcomeMessage">Bienvenido {userInfo.user_name + " " + userInfo.user_lastName} </h3>
+                <h3 className="homeRol__welcomeMessage">Bienvenid@ {userInfo.user_name + " " + userInfo.user_lastName} </h3>
                 <div onClick={logOut} className="homeRol__signout">
                     <ExitToAppIcon className="homeRol__signoutIcon"/>
                 </div> 
@@ -55,8 +55,12 @@ function HomeRol({rol}) {
                     <h2>Notificaciones</h2>
                     <div className="homeRol__notificationsContainer">
                         <div className="homeRol__notificationCard">
-                            <h3>Reunión de profesores</h3>
-                            <p>El día 15/10/2020 habrá una reunión de profesores para verificar notas bla bla bla bla bla bla bla bla bla bla</p>
+                            <h3>Lavate las manos</h3>
+                            <p>Recuerda lavarte bien las manos cada 3 horas &#x1f44f;</p>
+                        </div>
+                        <div className="homeRol__notificationCard">
+                            <h3>Regreso a clases</h3>
+                            <p>El día 15 de octubre es el ingreso de los estudiantes de la semana de receso &#x1f4d6; &#x270f;&#xfe0f;</p>
                         </div>
                     </div>
                 </div>
