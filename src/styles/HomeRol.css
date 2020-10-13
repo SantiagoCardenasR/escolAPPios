@@ -1,5 +1,6 @@
 .homeRol {
   display: flex;
+  background-image: url("../images/Fondo12.jpg");
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -13,6 +14,7 @@
   align-items: center;
   justify-content: left;
   margin-top: 25px;
+  color: white;
 }
 
 .homeRol__welcomeMessage {
@@ -29,6 +31,6 @@
 
 .homeRol__signoutIcon {
   font-size: 40px !important;
-  color: #bfe349;
+  color: #f0a029;
   cursor: pointer;
 }

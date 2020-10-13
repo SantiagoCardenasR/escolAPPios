@@ -138,10 +138,10 @@
   cursor: pointer;
 }
 
-.vulnerabilidad__ButtonFormCabeza {
+.vulnerabilidad__ButtonFormNariz {
   position: absolute !important;
-  top: 140px !important;
-  left: 913px !important;
+  top: 515px !important;
+  left: 980px !important;
   color: #ff3d02;
   border: none;
   outline: none;
@@ -149,9 +149,9 @@
   font-size: 25px !important;
 }
 
-.vulnerabilidad__ButtonFormGarganta {
+.vulnerabilidad__ButtonFormAntecedentes {
   position: absolute !important;
-  top: 240px !important;
+  top: 600px !important;
   left: 914px !important;
   color: #ff3d02;
   border: none;
@@ -160,7 +160,7 @@
   font-size: 25px !important;
 }
 
-.vulnerabilidad__ButtonFormBrazos {
+.vulnerabilidad__ButtonFormMedicamento {
   position: absolute !important;
   top: 280px !important;
   left: 840px !important;
@@ -171,7 +171,7 @@
   font-size: 25px !important;
 }
 
-.vulnerabilidad__ButtonFormNariz {
+.vulnerabilidad__ButtonFormTratamiento {
   position: absolute !important;
   top: 178px !important;
   left: 915px !important;
@@ -182,7 +182,7 @@
   font-size: 22px !important;
 }
 
-.vulnerabilidad__ButtonFormBoca {
+.vulnerabilidad__ButtonFormCancer {
   position: absolute !important;
   top: 205px !important;
   left: 916px !important;
@@ -193,38 +193,7 @@
   font-size: 20px !important;
 }
 
-.vulnerabilidad__ButtonFormMano {
-  position: absolute !important;
-  top: 485px !important;
-  left: 816px !important;
-  color: #ff3d02;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 20px !important;
-}
 
-.vulnerabilidad__ButtonFormPiernas {
-  position: absolute !important;
-  top: 570px !important;
-  left: 885px !important;
-  color: #ff3d02;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 25px !important;
-}
-
-.vulnerabilidad__ButtonFormEstomago {
-  position: absolute !important;
-  top: 380px !important;
-  left: 915px !important;
-  color: #ff3d02;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-size: 25px !important;
-}
 
 .modal-Option {
   display: flex;

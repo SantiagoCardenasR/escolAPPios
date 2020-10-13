@@ -43,12 +43,12 @@
 
 .adminRol__iconImage {
   font-size: 50px !important;
-  color: #bfe349;
+  color: #f3af1c;
 }
 
 .AdminRol__cardTitle {
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .AdminRol__cardContainer {

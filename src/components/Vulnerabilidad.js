@@ -15,8 +15,7 @@ function Vulnerabilidad() {
     "¿presenta comorbilidad de riesgo para enfermedad respiratoria grave?",
   ];
   const preguntasAntecedentes = [
-    "¿El estudiante presenta o ha presentado alguno de los siguientes antecedentes ?",
-    "Nota: todas las condiciones de salud relevantes o enfermedades preexistentes deben estas debidamente diagnosticadas. Los trabajadores en el momento de comunicar este tipo de situaciones deben compartir copia de diagnostico pertinente a responsables de SG-SST del centro de trabajo."
+    "¿El estudiante presenta o ha presentado alguno de los siguientes antecedentes ?   Nota: todas las condiciones de salud relevantes o enfermedades preexistentes deben estas debidamente diagnosticadas. Los trabajadores en el momento de comunicar este tipo de situaciones deben compartir copia de diagnostico pertinente a responsables de SG-SST del centro de trabajo."
 
 ];
   
