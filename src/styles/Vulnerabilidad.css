@@ -141,56 +141,56 @@
 .vulnerabilidad__ButtonFormNariz {
   position: absolute !important;
   top: 515px !important;
-  left: 980px !important;
+  left: 780px !important;
   color: #ff3d02;
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 25px !important;
+  font-size: 35px !important;
 }
 
 .vulnerabilidad__ButtonFormAntecedentes {
   position: absolute !important;
   top: 600px !important;
-  left: 914px !important;
+  left: 920px !important;
   color: #ff3d02;
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 25px !important;
+  font-size: 32px !important;
 }
 
 .vulnerabilidad__ButtonFormMedicamento {
   position: absolute !important;
-  top: 280px !important;
-  left: 840px !important;
+  top: 650px !important;
+  left: 999px !important;
   color: #ff3d02;
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 25px !important;
+  font-size: 32px !important;
 }
 
 .vulnerabilidad__ButtonFormTratamiento {
   position: absolute !important;
-  top: 178px !important;
-  left: 915px !important;
+  top: 540px !important;
+  left: 960px !important;
   color: #ff3d02;
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 22px !important;
+  font-size: 32px !important;
 }
 
 .vulnerabilidad__ButtonFormCancer {
   position: absolute !important;
-  top: 205px !important;
-  left: 916px !important;
+  top: 685px !important;
+  left: 1080px !important;
   color: #ff3d02;
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 20px !important;
+  font-size: 32px !important;
 }
 
 
