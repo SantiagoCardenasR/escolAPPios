@@ -11,6 +11,7 @@ import Home from "./components/Home";
 import Salud from "./components/Salud";
 import Covid19 from "./components/Covid19";
 import Vulnerabilidad from "./components/Vulnerabilidad";
+import Transporte from"./components/Transporte";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -45,6 +46,9 @@ function App() {
           </Route>
           <Route path="/coivd19Form">
             <Covid19 />
+          </Route>
+          <Route path="/Transporte">
+            <Transporte />
           </Route>
           <Route path="/home">
             <Home />
