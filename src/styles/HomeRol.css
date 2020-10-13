@@ -34,3 +34,47 @@
   color: #f0a029;
   cursor: pointer;
 }
+
+.homeRol__division {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.homeRol__notifications {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeded;
+  padding-right: 30px;
+}
+
+.homeRol__notificationsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #eaeded;
+  width: 100%;
+  height: 100%;
+}
+
+.homeRol__notificationCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.homeRol__notificationCard > h3 {
+  color: black;
+}
+
+.homeRol__notificationCard > p {
+  color: black;
+}
