@@ -47,7 +47,20 @@ function HomeRol({rol}) {
                     <ExitToAppIcon className="homeRol__signoutIcon"/>
                 </div> 
             </div>
-            {rol === "Estudiante"? <StudentRol />: rol === "Administrativo" ? <AdminRol />:""}
+
+            <div className="homeRol__division">
+                {rol === "Estudiante"? <StudentRol />: rol === "Administrativo" ? <AdminRol />:""}
+
+                <div className="homeRol__notifications">
+                    <h2>Notificaciones</h2>
+                    <div className="homeRol__notificationsContainer">
+                        <div className="homeRol__notificationCard">
+                            <h3>Reunión de profesores</h3>
+                            <p>El día 15/10/2020 habrá una reunión de profesores para verificar notas bla bla bla bla bla bla bla bla bla bla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
