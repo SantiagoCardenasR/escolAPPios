@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Transporte.css";
-import body from "../images/Bus.jpg";
+import body from "../images/Bus2.jpg";
 import logo from "../images/logo2.jpeg";
 import InfoIcon from "@material-ui/icons/Info";
 import CloseIcon from "@material-ui/icons/Close";
@@ -60,31 +60,7 @@ function Transporte() {
                   className="Transporte__ButtonFormVehiculo"
                   id="Vehiculo"
                 />
-                <InfoIcon
-                  className="Transporte__infoIcon"
-                  onClick={toggle}
-                  className="Transporte__ButtonFormAntecedentes"
-                  id="Antecedentes"
-                />
-                <InfoIcon
-                  className="Transporte__infoIcon"
-                  onClick={toggle}
-                  className="Transporte__ButtonFormMedicamento"
-                  id="Medicamento"
-                />
-                <InfoIcon
-                  className="Transporte__infoIcon"
-                  onClick={toggle}
-                  className="Transporte__ButtonFormTratamiento"
-                  id="Tratamiento"
-                />
-
-                <InfoIcon
-                  className="Transporte__infoIcon"
-                  onClick={toggle}
-                  className="Transporte__ButtonFormCancer"
-                  id="Cancer"
-                />
+                
                 
               </div>
               <div class="btn Transporte__botton">

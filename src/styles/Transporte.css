@@ -1,0 +1,185 @@
+.Transporte {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/fondoCovid.png");
+  }
+  
+  .Transporte > section {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Transporte__menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    padding: 0;
+  }
+  
+  .Transporte__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    text-align: 700px !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .Transporte__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Transporte__logo {
+    width: 100%;
+    height: auto;
+    justify-content: left;
+    align-items: center;
+    font-size: large;
+    margin-left: 50px;
+  }
+  
+  .Transporte__logoImage {
+    width: 450px !important;
+    height: 150px !important;
+  }
+  
+  .Transporte__icon {
+    margin: 0 !important;
+    width: 600px;
+  }
+  
+  .Transporte__cardTitle {
+    text-align: center;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    font-size: 30px !important;
+  }
+  
+  .Transporte__cardContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Transporte__link {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .Transporte__info1 {
+    position: absolute;
+    top: 80;
+  }
+  
+  .Transporte__botton {
+    color: white;
+    padding: 10px 10px;
+  }
+  
+  .Transporte__tooltip {
+    width: 50px;
+    border-radius: 15px;
+  }
+  
+  .Transporte__infoIcon {
+    font-size: 25px !important;
+    color: #bfe349;
+  }
+  
+  .modal-open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .modal-dialog {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  .modal-close {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10px;
+  }
+  
+  .Transporte__infoIcon {
+    font-size: 25px !important;
+    color: #bfe349;
+  }
+  
+  .Transporte__closeIcon {
+    font-size: 25px !important;
+    color: #bfe349;
+    cursor: pointer;
+  }
+  
+  .Transporte__ButtonFormVehiculo {
+    position: absolute !important;
+    top: 515px !important;
+    left: 890px !important;
+    color: #ff3d02;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 35px !important;
+  }
+  
+  
+  
+  
+  .modal-Option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Transporte__backButton {
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    color: black !important;
+    background-color: #ffc21c !important;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .modal-Option > form {
+    display: flex;
+  }
+  
+  .modal-Option > form > p {
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  .modal-Option > form > input {
+    margin-right: 20px;
+    height: 30px;
+  }
+  

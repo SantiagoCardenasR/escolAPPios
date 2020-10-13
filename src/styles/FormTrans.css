@@ -1,4 +1,4 @@
-.vulnerabilidad {
+.Transporte {
     width: 100%;
     height: 100%;
     display: flex;
@@ -7,12 +7,12 @@
     background-image: url("../images/fondoCovid.png");
   }
   
-  .vulnerabilidad > section {
+  .Transporte > section {
     width: 100%;
     height: 100%;
   }
   
-  .vulnerabilidad__menu {
+  .Transporte__menu {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -23,7 +23,7 @@
     padding: 0;
   }
   
-  .vulnerabilidad__card {
+  .Transporte__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,7 @@
     height: 100% !important;
   }
   
-  .vulnerabilidad__container {
+  .Transporte__container {
     width: 100%;
     height: 100%;
     display: flex;
@@ -42,7 +42,7 @@
     justify-content: center;
   }
   
-  .vulnerabilidad__logo {
+  .Transporte__logo {
     width: 100%;
     height: auto;
     justify-content: left;
@@ -51,53 +51,53 @@
     margin-left: 50px;
   }
   
-  .vulnerabilidad__logoImage {
+  .Transporte__logoImage {
     width: 450px !important;
     height: 150px !important;
   }
   
-  .vulnerabilidad__icon {
+  .Transporte__icon {
     margin: 0 !important;
     width: 600px;
   }
   
-  .vulnerabilidad__cardTitle {
+  .Transporte__cardTitle {
     text-align: center;
     margin-top: 40px !important;
     margin-bottom: 20px !important;
     font-size: 30px !important;
   }
   
-  .vulnerabilidad__cardContainer {
+  .Transporte__cardContainer {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
   }
   
-  .vulnerabilidad__link {
+  .Transporte__link {
     text-decoration: none;
     width: 100%;
     text-align: center;
     margin-top: 25px;
   }
   
-  .vulnerabilidad__info1 {
+  .Transporte__info1 {
     position: absolute;
     top: 80;
   }
   
-  .vulnerabilidad__botton {
+  .Transporte__botton {
     color: white;
     padding: 10px 10px;
   }
   
-  .vulnerabilidad__tooltip {
+  .Transporte__tooltip {
     width: 50px;
     border-radius: 15px;
   }
   
-  .vulnerabilidad__infoIcon {
+  .Transporte__infoIcon {
     font-size: 25px !important;
     color: #bfe349;
   }
@@ -127,18 +127,18 @@
     margin-right: 10px;
   }
   
-  .vulnerabilidad__infoIcon {
+  .Transporte__infoIcon {
     font-size: 25px !important;
     color: #bfe349;
   }
   
-  .vulnerabilidad__closeIcon {
+  .Transporte__closeIcon {
     font-size: 25px !important;
     color: #bfe349;
     cursor: pointer;
   }
   
-  .vulnerabilidad__ButtonFormNariz {
+  .Transporte__ButtonFormVehiculo {
     position: absolute !important;
     top: 515px !important;
     left: 780px !important;
@@ -149,58 +149,14 @@
     font-size: 35px !important;
   }
   
-  .vulnerabilidad__ButtonFormAntecedentes {
-    position: absolute !important;
-    top: 600px !important;
-    left: 920px !important;
-    color: #ff3d02;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 32px !important;
-  }
-  
-  .vulnerabilidad__ButtonFormMedicamento {
-    position: absolute !important;
-    top: 650px !important;
-    left: 999px !important;
-    color: #ff3d02;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 32px !important;
-  }
-  
-  .vulnerabilidad__ButtonFormTratamiento {
-    position: absolute !important;
-    top: 540px !important;
-    left: 960px !important;
-    color: #ff3d02;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 32px !important;
-  }
-  
-  .vulnerabilidad__ButtonFormCancer {
-    position: absolute !important;
-    top: 685px !important;
-    left: 1080px !important;
-    color: #ff3d02;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 32px !important;
-  }
-  
-  
+ 
   
   .modal-Option {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vulnerabilidad__backButton {
+  .Transporte__backButton {
     align-items: center;
     height: 40px;
     width: 180px;
