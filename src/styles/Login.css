@@ -79,7 +79,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: white;
+  background: rgb(255, 177, 8);
   border: none;
   color: #111;
   height: 40px;
@@ -99,8 +99,8 @@
   border: 1px solid;
   color: black;
   margin-top: 10px;
-  border-color: #bfe349;
-  background: #bfe349;
+  border-color: #ffad32;
+  background: #ffad32;
   cursor: pointer;
   font-size: 15px;
   font-family: Trueno;

@@ -26,3 +26,22 @@
   margin-top: 60px;
   margin-bottom: 20px;
 }
+
+.carne__link {
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.carne__backButton {
+  align-items: center;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  color: black !important;
+  background-color: #ffc21c !important;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}

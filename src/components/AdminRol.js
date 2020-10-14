@@ -14,67 +14,51 @@ function AdminRol() {
     return (
         <div className="AdminRol">
             <div class="container AdminRol__container">
-          <Link className="AdminRol__link" to="/carne">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
-              data-aos="fade-up"
-            >
-              <div class="icon-box AdminRol__card">
-                <div class="icon AdminRol__icon">
-                  <PermIdentityIcon  className="adminRol__iconImage"/>
+              <Link className="AdminRol__link" to="/carne">
+                <div
+                  class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
+                  data-aos="fade-up"
+                >
+                  <div class="icon-box AdminRol__card">
+                    <div class="icon AdminRol__icon">
+                      <PermIdentityIcon  className="adminRol__iconImage"/>
+                    </div>
+                    <h4 class="title AdminRol__cardTitle">Carné</h4>
+                  </div>
                 </div>
-                <h4 class="title AdminRol__cardTitle">Carné</h4>
-              </div>
-            </div>
-          </Link>
+              </Link>
 
-          <Link className="AdminRol__link" to="/salud">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
-              data-aos="fade-up"
-            >
-              <div class="icon-box AdminRol__card">
-                <div class="icon AdminRol__icon">
-                  <PermIdentityIcon  className="adminRol__iconImage"/>
+              <Link className="AdminRol__link" to="/salud">
+                <div
+                  class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
+                  data-aos="fade-up"
+                >
+                
+                  <div class="icon-box AdminRol__card">
+                    <div class="icon AdminRol__icon">
+                    <BookIcon  className="adminRol__iconImage"/>
+                    </div>
+                    <h4 class="title AdminRol__cardTitle">Agenda</h4>
+                  </div>
                 </div>
-                <h4 class="title AdminRol__cardTitle">Carné</h4>
-              </div>
-            </div>
-          </Link>
-        </div>
+              </Link>
 
-        <div className="container AdminRol__container">
-        <Link className="AdminRol__link" to="/transporte">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon-box AdminRol__card">
-                <div class="icon AdminRol__icon">
-                <CommuteIcon  className="adminRol__iconImage"/>
+              <Link className="AdminRol__link" to="/transporte">
+                <div
+                  class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="icon-box AdminRol__card">
+                    <div class="icon AdminRol__icon">
+                    <CommuteIcon  className="adminRol__iconImage"/>
+                    </div>
+                    <h4 class="title AdminRol__cardTitle">Transporte</h4>
+                  </div>
                 </div>
-                <h4 class="title AdminRol__cardTitle">Transporte</h4>
-              </div>
-            </div>
-          </Link>
+              </Link>
 
-          <Link className="AdminRol__link" to="/agenda">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="icon-box AdminRol__card">
-                <div class="icon AdminRol__icon">
-                <BookIcon  className="adminRol__iconImage"/>
-                </div>
-                <h4 class="title AdminRol__cardTitle">Agenda</h4>
-              </div>
             </div>
-          </Link>
-
-        </div>
 
         <div className="container AdminRol__container">
           <Link className="AdminRol__link" to="/coivd19Form">
@@ -106,9 +90,7 @@ function AdminRol() {
               </div>
             </div>
           </Link>
-        </div> 
-        
-        <div className="container AdminRol__container">
+
           <Link className="AdminRol__link" to="/calendario">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
@@ -123,8 +105,11 @@ function AdminRol() {
               </div>
             </div>
           </Link>
+        </div> 
+        
+        <div className="container AdminRol__container">
 
-          <Link className="AdminRol__link" to="/notas">
+          <Link className="AdminRol__link" to="/stats">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
               data-aos="fade-up"
@@ -134,14 +119,11 @@ function AdminRol() {
                 <div class="icon AdminRol__icon">
                 <TimelineIcon  className="adminRol__iconImage"/>
                 </div>
-                <h4 class="title AdminRol__cardTitle">Notas</h4>
+                <h4 class="title AdminRol__cardTitle">Estadísticas</h4>
               </div>
             </div>
           </Link>
 
-        </div>
-
-        <div className="container AdminRol__container">
           <Link className="AdminRol__link" to="/riesgo">
             <div
               class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 AdminRol__cardContainer"
@@ -157,7 +139,7 @@ function AdminRol() {
             </div>
           </Link>
 
-        </div>        
+        </div>      
             
         </div>
     )

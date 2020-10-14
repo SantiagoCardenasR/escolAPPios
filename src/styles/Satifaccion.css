@@ -1,0 +1,245 @@
+.Satifaccion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/fondoCovid.png");
+}
+
+.Satifaccion > section {
+  width: 100%;
+  height: 100%;
+}
+
+.Satifaccion__menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  padding: 0;
+}
+
+.Satifaccion__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  text-align: 700px !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.Satifaccion__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Satifaccion__logo {
+  width: 100%;
+  height: auto;
+  justify-content: left;
+  align-items: center;
+  font-size: large;
+  margin-left: 50px;
+}
+
+.Satifaccion__logoImage {
+  width: 450px !important;
+  height: 150px !important;
+}
+
+.Satifaccion__icon {
+  margin: 0 !important;
+  width: 600px;
+}
+
+.Satifaccion__cardTitle {
+  text-align: center;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  font-size: 30px !important;
+}
+
+.Satifaccion__cardContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Satifaccion__link {
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.Satifaccion__info1 {
+  position: absolute;
+  top: 80;
+}
+
+.Satifaccion__botton {
+  color: white;
+  padding: 10px 10px;
+}
+
+.Satifaccion__tooltip {
+  width: 50px;
+  border-radius: 15px;
+}
+
+.Satifaccion__infoIcon {
+  font-size: 25px !important;
+  color: #bfe349;
+}
+
+.modal-open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-dialog {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.modal-close {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 10px;
+}
+
+.Satifaccion__infoIcon {
+  font-size: 25px !important;
+  color: #bfe349;
+}
+
+.Satifaccion__closeIcon {
+  font-size: 25px !important;
+  color: #bfe349;
+  cursor: pointer;
+}
+
+.Satifaccion__ButtonFormGeneral {
+  position: absolute !important;
+  top: 515px !important;
+  left: 780px !important;
+  color: #ff3d02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 35px !important;
+}
+
+.Satifaccion__ButtonFormATemas {
+  position: absolute !important;
+  top: 600px !important;
+  left: 920px !important;
+  color: #ff3d02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 32px !important;
+}
+
+.Satifaccion__ButtonFormActividades {
+  position: absolute !important;
+  top: 650px !important;
+  left: 999px !important;
+  color: #ff3d02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 32px !important;
+}
+
+.Satifaccion__ButtonFormFomentar {
+  position: absolute !important;
+  top: 540px !important;
+  left: 960px !important;
+  color: #ff3d02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 32px !important;
+}
+
+.Satifaccion__ButtonFormFavor {
+  position: absolute !important;
+  top: 685px !important;
+  left: 1080px !important;
+  color: #ff3d02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 32px !important;
+}
+.Satifaccion__ButtonFormUso {
+  position: absolute !important;
+  top: 685px !important;
+  left: 1080px !important;
+  color: #ff3d02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 32px !important;
+}
+.Satifaccion__ButtonFormActitud {
+  position: absolute !important;
+  top: 685px !important;
+  left: 1080px !important;
+  color: #ff3d02;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 32px !important;
+}
+
+.modal-Option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Satifaccion__backButton {
+  align-items: center;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  color: black !important;
+  background-color: #ffc21c !important;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.modal-Option > form {
+  display: flex;
+}
+
+.modal-Option > form > p {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.modal-Option > form > input {
+  margin-right: 20px;
+  height: 30px;
+}

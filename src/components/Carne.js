@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import QRCode from 'qrcode.react';
 import {useStateValue} from '../StateProvider'
 import "../styles/Carne.css"
@@ -15,8 +16,18 @@ function Carne() {
                 <p>email: {userInfo.user_email}</p>
             </div>
             <div className="carne__qrCodeContainer">
-                <QRCode value={userInfo.user_id} size="300" bgColor="black" fgColor="#bfe349"/>
+                <QRCode className="carne__qrCode" includeMargin="true" renderAs="canvas" value={userInfo.user_id.toString()} size="200" bgColor="black" fgColor="#bfe349"/>
             </div>
+
+            <Link className="carne__link" to="/home">
+                <button
+                  type="button"
+                  className="btn btn-primary active carne__backButton"
+                >
+                  Volver
+                </button>
+              </Link>
+
         </div>
     )
 }

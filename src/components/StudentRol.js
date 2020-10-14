@@ -1,6 +1,15 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import '../styles/StudentRol.css'
+import PermIdentityIcon from '@material-ui/icons/PermIdentity';
+import CommuteIcon from '@material-ui/icons/Commute';
+import BookIcon from '@material-ui/icons/Book';
+import HealingIcon from '@material-ui/icons/Healing';
+import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
+import EventIcon from '@material-ui/icons/Event';
+import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
+import TimelineIcon from '@material-ui/icons/Timeline';
+import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 
 function StudentRol() {
     return (
@@ -13,7 +22,7 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bxl-dribbble"></i>
+                <PermIdentityIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Carné</h4>
               </div>
@@ -27,7 +36,7 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bxl-dribbble"></i>
+                  <DirectionsRunIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Pico y cole</h4>
               </div>
@@ -42,7 +51,7 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bx-file"></i>
+                  <CommuteIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Transporte</h4>
               </div>
@@ -59,7 +68,7 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bx-tacstudentRolter"></i>
+                  <HealingIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Formato Covid</h4>
               </div>
@@ -74,7 +83,7 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bx-tacstudentRolter"></i>
+                  <LocalHospitalIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Formato Vulnerabilidad</h4>
               </div>
@@ -89,7 +98,7 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bx-layer"></i>
+                  <BookIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Agenda</h4>
               </div>
@@ -106,7 +115,7 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bx-tacstudentRolter"></i>
+                  <EventIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Calendario</h4>
               </div>
@@ -121,9 +130,24 @@ function StudentRol() {
             >
               <div class="icon-box studentRol__card">
                 <div class="icon studentRol__icon">
-                  <i class="bx bx-tacstudentRolter"></i>
+                  <TimelineIcon  className="studentRol__iconImage"/>
                 </div>
                 <h4 class="title studentRol__cardTitle">Notas</h4>
+              </div>
+            </div>
+          </Link>
+
+          <Link className="studentRol__link" to="/satisfaccion">
+            <div
+              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 studentRol__cardContainer"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+               <div class="icon-box studentRol__card">
+                <div class="icon studentRol__icon">
+                  <InsertEmoticonIcon  className="studentRol__iconImage"/>
+                </div>
+                <h4 class="title studentRol__cardTitle">Formato de satisfacción</h4>
               </div>
             </div>
           </Link>
